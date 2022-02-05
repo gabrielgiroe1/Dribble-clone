@@ -25,7 +25,7 @@ class ShotsController < ApplicationController
 
     respond_to do |format|
       if @shot.save
-        format.html { redirect_to shot_url(@shot), notice: "Shot was successfully created." }
+        format.html { redirect_to shot_url(@shot), notice: 'Shot was successfully created.' }
         format.json { render :show, status: :created, location: @shot }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +38,7 @@ class ShotsController < ApplicationController
   def update
     respond_to do |format|
       if @shot.update(shot_params)
-        format.html { redirect_to shot_url(@shot), notice: "Shot was successfully updated." }
+        format.html { redirect_to shot_url(@shot), notice: 'Shot was successfully updated.' }
         format.json { render :show, status: :ok, location: @shot }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,19 +52,20 @@ class ShotsController < ApplicationController
     @shot.destroy
 
     respond_to do |format|
-      format.html { redirect_to shots_url, notice: "Shot was successfully destroyed." }
+      format.html { redirect_to shots_url, notice: 'Shot was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_shot
-      @shot = Shot.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def shot_params
-      params.require(:shot).permit(:title, :description, :user_id)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_shot
+    @shot = Shot.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def shot_params
+    params.require(:shot).permit(:title, :description, :user_id)
+  end
 end
