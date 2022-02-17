@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class ShotsController < ApplicationController
-  before_action :set_shot, only: %i[ show edit update destroy ]
+  before_action :set_shot, only: %i[show edit update destroy]
 
   # GET /shots or /shots.json
   def index
@@ -7,8 +9,7 @@ class ShotsController < ApplicationController
   end
 
   # GET /shots/1 or /shots/1.json
-  def show
-  end
+  def show; end
 
   # GET /shots/new
   def new
@@ -16,8 +17,7 @@ class ShotsController < ApplicationController
   end
 
   # GET /shots/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /shots or /shots.json
   def create
