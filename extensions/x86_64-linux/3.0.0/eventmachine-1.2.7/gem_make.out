@@ -1,0 +1,16 @@
+current directory: /home/giroe/RubymineProjects/Dribble_clone/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220517-76524-r8ha4b.rb extconf.rb
+creating Makefile
+
+current directory: /home/giroe/RubymineProjects/Dribble_clone/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/giroe/RubymineProjects/Dribble_clone/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/giroe/RubymineProjects/Dribble_clone/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20220517-76524-dhjv5q

@@ -3,6 +3,52 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Dribble_clone.iml" filepath="$PROJECT_DIR$/.idea/Dribble_clone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/acts_as_votable-0.13.2.iml" filepath="$PROJECT_DIR$/.idea/modules/acts_as_votable-0.13.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressable-2.8.0.iml" filepath="$PROJECT_DIR$/.idea/modules/addressable-2.8.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bcrypt-3.1.16.iml" filepath="$PROJECT_DIR$/.idea/modules/bcrypt-3.1.16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/better_errors-2.9.1.iml" filepath="$PROJECT_DIR$/.idea/modules/better_errors-2.9.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bindex-0.8.1.iml" filepath="$PROJECT_DIR$/.idea/modules/bindex-0.8.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/childprocess-4.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/childprocess-4.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/concurrent-ruby-1.1.9.iml" filepath="$PROJECT_DIR$/.idea/modules/concurrent-ruby-1.1.9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crass-1.0.6.iml" filepath="$PROJECT_DIR$/.idea/modules/crass-1.0.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/debug-1.4.0.iml" filepath="$PROJECT_DIR$/.idea/modules/debug-1.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/em-websocket-0.5.3.iml" filepath="$PROJECT_DIR$/.idea/modules/em-websocket-0.5.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ffi-1.15.5.iml" filepath="$PROJECT_DIR$/.idea/modules/ffi-1.15.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/formatador-1.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/formatador-1.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guard-compat-1.2.1.iml" filepath="$PROJECT_DIR$/.idea/modules/guard-compat-1.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guard-livereload-2.5.2.iml" filepath="$PROJECT_DIR$/.idea/modules/guard-livereload-2.5.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guard-reek-1.2.0.iml" filepath="$PROJECT_DIR$/.idea/modules/guard-reek-1.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guard-rspec-4.7.3.iml" filepath="$PROJECT_DIR$/.idea/modules/guard-rspec-4.7.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guard-rubocop-1.5.0.iml" filepath="$PROJECT_DIR$/.idea/modules/guard-rubocop-1.5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/http_parser.rb-0.8.0.iml" filepath="$PROJECT_DIR$/.idea/modules/http_parser.rb-0.8.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/impressionist-2.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/impressionist-2.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io-wait-0.2.1.iml" filepath="$PROJECT_DIR$/.idea/modules/io-wait-0.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/irb-1.4.1.iml" filepath="$PROJECT_DIR$/.idea/modules/irb-1.4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jbuilder-2.11.5.iml" filepath="$PROJECT_DIR$/.idea/modules/jbuilder-2.11.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jquery-rails-4.4.0.iml" filepath="$PROJECT_DIR$/.idea/modules/jquery-rails-4.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/method_source-1.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/method_source-1.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mini_mime-1.1.2.iml" filepath="$PROJECT_DIR$/.idea/modules/mini_mime-1.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/msgpack-1.4.5.iml" filepath="$PROJECT_DIR$/.idea/modules/msgpack-1.4.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-http-0.2.0.iml" filepath="$PROJECT_DIR$/.idea/modules/net-http-0.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-imap-0.2.3.iml" filepath="$PROJECT_DIR$/.idea/modules/net-imap-0.2.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-protocol-0.1.2.iml" filepath="$PROJECT_DIR$/.idea/modules/net-protocol-0.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio4r-2.5.8.iml" filepath="$PROJECT_DIR$/.idea/modules/nio4r-2.5.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nokogiri-1.13.1-x86_64-linux.iml" filepath="$PROJECT_DIR$/.idea/modules/nokogiri-1.13.1-x86_64-linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/orm_adapter-0.5.0.iml" filepath="$PROJECT_DIR$/.idea/modules/orm_adapter-0.5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/public_suffix-4.0.6.iml" filepath="$PROJECT_DIR$/.idea/modules/public_suffix-4.0.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rb-fsevent-0.11.1.iml" filepath="$PROJECT_DIR$/.idea/modules/rb-fsevent-0.11.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rb-inotify-0.10.1.iml" filepath="$PROJECT_DIR$/.idea/modules/rb-inotify-0.10.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reek-6.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/reek-6.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regexp_parser-2.2.1.iml" filepath="$PROJECT_DIR$/.idea/modules/regexp_parser-2.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ruby-vips-2.1.4.iml" filepath="$PROJECT_DIR$/.idea/modules/ruby-vips-2.1.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sassc-2.4.0.iml" filepath="$PROJECT_DIR$/.idea/modules/sassc-2.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-webdriver-4.1.0.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-webdriver-4.1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shellany-0.0.1.iml" filepath="$PROJECT_DIR$/.idea/modules/shellany-0.0.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sqlite3-1.4.2.iml" filepath="$PROJECT_DIR$/.idea/modules/sqlite3-1.4.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_app.iml" filepath="$PROJECT_DIR$/.idea/modules/test_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeout-0.2.0.iml" filepath="$PROJECT_DIR$/.idea/modules/timeout-0.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uri-0.11.0.iml" filepath="$PROJECT_DIR$/.idea/modules/uri-0.11.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/warden-1.2.9.iml" filepath="$PROJECT_DIR$/.idea/modules/warden-1.2.9.iml" />
     </modules>
   </component>
 </project>

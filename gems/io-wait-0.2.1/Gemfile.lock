@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    io-wait (0.2.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  io-wait!
+
+BUNDLED WITH
+   2.3.13
