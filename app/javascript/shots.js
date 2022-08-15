@@ -24,7 +24,7 @@ document.addEventListener("turbolinks:load", function () {
                                 document.getElementById('list').insertBefore(span, null);
                             };
                         })(f);
-                        reader.readAsDataURL(F);
+                        reader.readAsDataURL(f);
                     }
                 }
 
@@ -38,7 +38,7 @@ document.addEventListener("turbolinks:load", function () {
                 const target = document.documentElement;
                 const fileInput = document.getElementById('shot_user_shot');
                 const previewImage = document.getElementById('previewImage');
-                const newShootImage = document.getElementById('new_shot')
+                const newShotImage = document.getElementById('new_shot')
 
                 if (dropZone) {
                     dropZone.addEventListener('dragover', handleDragOver, false);
@@ -47,7 +47,7 @@ document.addEventListener("turbolinks:load", function () {
                 dropZone.addEventListener('dragover', (e) => {
                     dropZone.classList.add('fire');
                 }, false);
-                dropZone.addEventListener('deagleave', (e) => {
+                dropZone.addEventListener('dragleave', (e) => {
                     dropZone.classList.remove('fire');
                 }, false);
 
@@ -56,25 +56,26 @@ document.addEventListener("turbolinks:load", function () {
                     dropZone.classList.remove('fire');
                     fileInput.files = e.dataTransfer.files;
                     //if on shot/id/edit hide preview image on drop
-                    if(previewImage){
-                        previewImage.style.display= 'none';
+                    if (previewImage) {
+                        previewImage.style.display = 'none';
                     }
-                    if(newShotForm){
-                        dropZone.style.display ='none';
+                    if (newShotForm) {
+                        dropZone.style.display = 'none';
                     }
                 }, false);
                 //body specific
-                target.addEventListener('dragover', (e)=>{
+                target.addEventListener('dragover', (e) => {
                     e.preventDefault();
                     dropZone.classList.add('dragging');
                 }, false);
                 //remove dragging class to body when NOT dragging
-                target.addEventListener('dragleave', (e)=>{
+                target.addEventListener('dragleave', (e) => {
                     dropZone.classList.remove('dragging')
                     dropZone.classList.remove('fire');
                 }, false);
             }
         }
     };
-    Shots.previewImage();
+    Shots.previewShoot();
+    Shots.shotHover();
 });
